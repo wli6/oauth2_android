@@ -1,9 +1,7 @@
-package com.bi.oauthtest;
-
- 
+package com.bi.oauth2;
 
 public interface OAuthListener {
-	void onSuccess(Token token);
+	void onSuccess(String token);
 
 	void onCancel();
 
